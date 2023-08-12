@@ -22,7 +22,7 @@ header {
     color: var(--color-text2);
 }
 .header__titulo {
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-weight: 100;
 }
