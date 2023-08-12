@@ -28,6 +28,9 @@ header {
     align-items: center;
     justify-content: space-between;
 }
+#header__img {
+    filter: invert(100%);
+}
 .header__titulo {
     font-family: 'Inter', sans-serif;
     font-size: 24px;
