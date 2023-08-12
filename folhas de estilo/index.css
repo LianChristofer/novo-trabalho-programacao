@@ -26,6 +26,7 @@ header {
 .header__grup {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .header__titulo {
     font-family: 'Inter', sans-serif;
