@@ -7,7 +7,7 @@
     --color-two: #470303;
     --color-three: #5f0505;
     --color-four: #f0f0f0;
-    --color-five: #d754ff;
+    --color-five: #ffe4e4;
 }
 
 * {
@@ -15,6 +15,7 @@
     padding: 0;
     font-family: 'Inter', sans-serif;
     font-size: 13px;
+    background-color: var(--color-five);
 }
 header {
     display: flex;
@@ -64,4 +65,11 @@ header {
 }
 .header__link:hover {
     background-color: var(--color-one);
+}
+.apresentacao__titulo {
+    font-size: 18px;
+    margin-top: 2em;
+}
+.apresentacao__subtitulo {
+    font-size: 15px;
 }
