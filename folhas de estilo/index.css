@@ -23,6 +23,10 @@ header {
     background-color: var(--color-one);
     color: var(--color-text2);
 }
+#header__grup {
+    display: flex;
+    align-items: center;
+}
 .header__titulo {
     font-family: 'Inter', sans-serif;
     font-size: 24px;
