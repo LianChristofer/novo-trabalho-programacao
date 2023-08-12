@@ -6,7 +6,7 @@
     --color-one: #4d0303;
     --color-two: #8f1a1a;
     --color-three: #5d0404;
-    --color-four: #c9c9c9;
+    --color-four: #f0f0f0;
     --color-five: #d754ff;
 }
 
@@ -55,4 +55,5 @@ header {
     text-decoration: none;
     color: var(--color-four);
     font-size: 16px;
+    font-weight: 300;
 }
