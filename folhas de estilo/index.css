@@ -6,7 +6,7 @@
     --color-one: #4d0303;
     --color-two: #8f1a1a;
     --color-three: #5d0404;
-    --color-four: #ffffff;
+    --color-four: #c9c9c9;
     --color-five: #d754ff;
 }
 
@@ -23,6 +23,7 @@ header {
     background-color: var(--color-one);
     color: var(--color-text2);
     height: 10vh;
+    box-shadow: 1px 1px 4px var(--color-two);
 }
 .header__titulo {
     font-family: 'Inter', sans-serif;
@@ -52,6 +53,6 @@ header {
 .header__link {
     padding: 1.5em;
     text-decoration: none;
-    color: var(--color-text2);
+    color: var(--color-four);
     font-size: 16px;
 }
