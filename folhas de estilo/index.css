@@ -28,7 +28,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 10%;
+    gap: 50%;
 }
 #header__img {
     filter: invert(100%);
