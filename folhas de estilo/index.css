@@ -43,10 +43,12 @@ header {
     display: flex;
     align-items: center;
     padding: 5px;
+    color: var(--color-text2);
 }
 #header__barra {
      border: none;
      background-color: var(--color-text2);
+     color: var(--color-text2);
      background: none;
      outline: none;
      padding: 0;
