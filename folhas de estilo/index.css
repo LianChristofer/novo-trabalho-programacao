@@ -53,24 +53,25 @@ header {
 }
 .header__link {
     background-color: var(--color-three);
-    box-shadow: 1.5px 1.5px 4px var(--color-two);
+    box-shadow: 4px 4px 4px var(--color-two);
     border-radius: 6px;
     padding: 10px;
     text-decoration: none;
     color: var(--color-four);
     font-size: 16px;
     font-weight: 300;
+    transition: 0.4s ease-in-out;
+}
+.header__link:hover {
+    background-color: var(--color-one);
 }
 .header__link::after {
     content: " ";
     width: 0;
     height: 3px;
     background-color: var(--color-three);
-    bottom: 0;
-    left: 0;
     transition: 0.4s ease-in-out;
 }
 .header__link::after:hover {
     width: 100%;
-    background-color: var(--color-one);
 }
