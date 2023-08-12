@@ -51,6 +51,8 @@ header {
     display: flex;
 }
 .header__link {
+    background-color: var(--color-three);
+    box-shadow: 1px 1px 4px var(--color-two);
     padding: 1.5em;
     text-decoration: none;
     color: var(--color-four);
