@@ -23,7 +23,7 @@ header {
     background-color: var(--color-one);
     color: var(--color-text2);
 }
-#header__grup {
+.header__grup {
     display: flex;
     align-items: center;
 }
