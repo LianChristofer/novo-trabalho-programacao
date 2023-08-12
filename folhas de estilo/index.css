@@ -48,5 +48,7 @@ header {
 }
 .header__ul {
     display: flex;
-    padding: 0 10%;
+}
+.header__link {
+    padding: 1.5em;
 }
