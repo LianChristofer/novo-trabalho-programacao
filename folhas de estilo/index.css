@@ -15,7 +15,6 @@
     padding: 0;
     font-family: 'Inter', sans-serif;
     font-size: 13px;
-    background-color: var(--color-five);
 }
 header {
     display: flex;
@@ -66,10 +65,18 @@ header {
 .header__link:hover {
     background-color: var(--color-one);
 }
+.apresentacao {
+    width: 75%;
+}
 .apresentacao__titulo {
     font-size: 18px;
     margin-top: 2em;
+    text-align: center;
 }
 .apresentacao__subtitulo {
     font-size: 15px;
+    text-align: center;
+}
+.apresentacao__desenvolvimento {
+    text-align: justify;
 }
