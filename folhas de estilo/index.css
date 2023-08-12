@@ -49,13 +49,12 @@ header {
 }
 .header__ul {
     display: flex;
+    gap: 15px;
 }
 .header__link {
-    display: flex;
     background-color: var(--color-three);
     box-shadow: 1px 1px 4px var(--color-two);
     padding: 1em 7px;
-    gap: 15px;
     text-decoration: none;
     color: var(--color-four);
     font-size: 16px;
