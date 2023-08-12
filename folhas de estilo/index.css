@@ -19,8 +19,9 @@ header {
     align-items: center;
     justify-content: space-around;
     background-color: var(--color-one);
+    color: var(--color-text2);
 }
-header__titulo {
+.header__titulo {
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 24px;
 }
