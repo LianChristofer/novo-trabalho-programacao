@@ -13,8 +13,6 @@
 * {
     margin: 0;
     padding: 0;
-    width: 100vw;
-    height: 100vh;
     font-family: 'Inter', sans-serif;
     font-size: 13px;
 }
@@ -33,4 +31,7 @@ header {
 .header__busca {
     padding: 5px;
     border-radius: 20%;
+}
+#header__barra {
+
 }
