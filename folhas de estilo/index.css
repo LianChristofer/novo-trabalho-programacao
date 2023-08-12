@@ -45,3 +45,9 @@ header {
     padding: 5px;
     background-color: var(--color-text2);
 }
+#header__barra {
+     border: none;
+     background: none;
+     outline: none;
+     padding: 0;
+}
