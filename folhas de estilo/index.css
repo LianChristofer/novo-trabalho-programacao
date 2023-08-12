@@ -46,3 +46,7 @@ header {
     filter: invert(100%);
     width: 15px;
 }
+.header__ul {
+    display: flex;
+    
+}
