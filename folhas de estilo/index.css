@@ -24,12 +24,6 @@ header {
     color: var(--color-text2);
     gap: 25%;
 }
-.header__grup {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 50%;
-}
 #header__img {
     filter: invert(100%);
     width: 15px;
@@ -51,5 +45,4 @@ header {
      color: var(--color-text2);
      outline: none;
      padding: 0;
-     width: 0;
 }
