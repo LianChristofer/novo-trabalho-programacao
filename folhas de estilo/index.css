@@ -1,3 +1,13 @@
+:root {
+    --color-text: #fff;
+    --color-dark1: #414141;
+    --color-dark2: #343434;
+    --color-dark3: #272727;
+    --color-dark4: #2d2d2d;
+    --color-dark5: #1c1c1c;
+    --color-six: #d754ff;
+}
+
 body {
-    background-color: #666462;
+    background-color: var(--color-dark2);
 }
