@@ -51,4 +51,5 @@ header {
 }
 .header__link {
     padding: 1.5em;
+    text-decoration: none;
 }
