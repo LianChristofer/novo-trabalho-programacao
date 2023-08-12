@@ -24,10 +24,6 @@ header {
     color: var(--color-text2);
     gap: 15%;
 }
-#header__img {
-    filter: invert(100%);
-    width: 15px;
-}
 .header__titulo {
     font-family: 'Inter', sans-serif;
     font-size: 24px;
@@ -41,8 +37,12 @@ header {
 }
 #header__barra {
     background: none;
-     border: none;
-     color: var(--color-text2);
-     outline: none;
-     padding: 0;
+    border: none;
+    color: var(--color-text2);
+    outline: none;
+    padding: 0;
+}
+#header__img {
+    filter: invert(100%);
+    width: 15px;
 }
