@@ -48,5 +48,4 @@ header {
 }
 .header__ul {
     display: flex;
-    gap: 15%;
 }
