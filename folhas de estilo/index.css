@@ -22,7 +22,7 @@ header {
     justify-content: space-around;
     background-color: var(--color-one);
     color: var(--color-text2);
-    gap: 25%;
+    gap: 15%;
 }
 #header__img {
     filter: invert(100%);
