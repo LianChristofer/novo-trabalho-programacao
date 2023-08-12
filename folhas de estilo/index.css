@@ -22,6 +22,7 @@ header {
     justify-content: space-around;
     background-color: var(--color-one);
     color: var(--color-text2);
+    gap: 25%;
 }
 .header__grup {
     display: flex;
@@ -42,7 +43,4 @@ header {
     align-items: center;
     padding: 5px;
     border-radius: 20%;
-}
-#header__barra {
-
 }
