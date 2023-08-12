@@ -53,7 +53,7 @@ header {
 }
 .header__link {
     background-color: var(--color-three);
-    box-shadow: 1px 1px 1px var(--color-two);
+    box-shadow: 1px 1px 12px var(--color-two);
     padding: 10px;
     text-decoration: none;
     color: var(--color-four);
