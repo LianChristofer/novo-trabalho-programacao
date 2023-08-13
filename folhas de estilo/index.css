@@ -82,3 +82,11 @@ main {
     text-align: justify;
     font-size: 14.5px;
 }
+.contato {
+    margin-top: 5em;
+    margin-bottom: 1rem;
+    font-size: 17px;
+}
+.contato__titulo {
+    font-size: 14.5;
+}
