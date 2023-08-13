@@ -1,0 +1,12 @@
+.disciplinas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2.5em;
+}
+.disciplinas__itens {
+    border-radius: 6px;
+    padding: 7px;
+    margin: 8px 0;
+}
