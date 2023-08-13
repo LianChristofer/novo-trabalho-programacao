@@ -19,7 +19,7 @@
     font-size: 13px;
 }
 body {
-    background: linear-gradient (145 deg, var(--color-six), var(--color-seven), black);
+    background: linear-gradient(145 deg, var(--color-six), var(--color-seven), black);
 }
 header {
     display: flex;
