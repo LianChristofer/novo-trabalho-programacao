@@ -70,13 +70,15 @@ main {
     margin-top: 3%;
 }
 .apresentacao__titulo {
-    font-size: 18px;
+    font-size: 22px;
     text-align: center;
 }
 .apresentacao__subtitulo {
-    font-size: 15px;
+    font-size: 17px;
     text-align: center;
+    margin-bottom: 1.2em;
 }
 .apresentacao__desenvolvimento {
     text-align: justify;
+    font-size: 14.5px;
 }
