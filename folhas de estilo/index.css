@@ -84,12 +84,25 @@ main {
 }
 .contato {
     margin-top: 5em;
-    margin-bottom: 1em;
     text-align: center;
 }
 .contato__titulo {
     font-size: 17px;
+    margin-bottom: 7px;
 }
 .contate__email {
     font-size: 14.5px;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-weight: 300;
+    font-size: 18px;
+    background-color: var(--color-five);
+    color: var(--color-three);
+    height: 2.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
