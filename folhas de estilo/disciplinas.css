@@ -1,12 +1,19 @@
 .disciplinas {
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
     margin-top: 2.5em;
+    width: 100%;
 }
 .disciplinas__itens {
     border-radius: 6px;
     padding: 7px;
     margin: 8px 0;
+    text-decoration: none;
+    color: var(--color-text2);
+    background-color: var(--color-one);
+    box-shadow: 1px 1px 4px var(--color-two);
+}
+.disciplinas__itens:hover {
+    background-color: var(--color-one);
 }
