@@ -69,7 +69,7 @@ header {
 .header__link:hover {
     background-color: var(--color-one);
 }
-main {
+padrao__main {
     margin: 7% 30%;
     margin-top: 3%;
 }
