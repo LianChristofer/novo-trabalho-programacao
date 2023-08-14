@@ -1,6 +1,6 @@
 .disciplinas {
     display: flex;
-    justify-content: center;
+    align-items: center;
     flex-direction: column;
     margin-top: 2.5em;
 }
@@ -10,6 +10,7 @@
     padding: 11px;
     font-size: 16px;
     font-weight: 500;
+    width: 200px;
     margin: 8px 0;
     text-decoration: none;
     color: var(--color-three);
