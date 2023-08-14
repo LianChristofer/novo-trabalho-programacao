@@ -129,16 +129,44 @@ footer {
         font-size: 14px;
     }
 }
-@media screen and (min-width: 394px) and (max-width: 519px) {
+@media screen and (min-width: 394px) and (max-width: 539px) {
     header {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        text-align:center;
+        height: 12%;
+    }
+    #header__busca {
+        display: none;
     }
     .header__titulo {
         font-size: 17px;
     }
     .header__link {
         font-size: 12px;
+        background-color: transparent;
     }
-}
+    .apresentacao {
+        width: 330px;
+    }
+    .apresentacao__titulo {
+        font-size: 18px;
+    }
+    .apresentacao__subtitulo {
+        font-size: 15px;
+    }
+    .apresentacao__desenvolvimento {
+        font-size: 13.5px;
+    }
+    .contato {
+        width: 330px;
+    }
+    .contato__titulo {
+        font-size: 15px;
+    }
+    .contate__email {
+        font-size: 13.5px;
+    }
+    .footer__text {
+        font-size: 15px;
+    }
