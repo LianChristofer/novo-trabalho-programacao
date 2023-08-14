@@ -3,7 +3,6 @@
     justify-content: center;
     flex-direction: column;
     margin-top: 2.5em;
-    width: 50%;
 }
 .disciplinas__itens {
     border-radius: 6px;
