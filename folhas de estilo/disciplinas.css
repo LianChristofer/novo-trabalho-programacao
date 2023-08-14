@@ -11,9 +11,10 @@
     margin: 8px 0;
     text-decoration: none;
     color: var(--color-text2);
-    background-color: var(--color-three);
-    box-shadow: 1px 1px 4px var(--color-two);
+    background-color: var(--color-five);
+    box-shadow: 1px 1px 2px var(--color-six);
+    transition: 0.4s ease-in-out;
 }
 .disciplinas__itens:hover {
-    background-color: var(--color-one);
+    background-color: var(--color-six);
 }
