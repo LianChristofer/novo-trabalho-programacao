@@ -69,9 +69,14 @@ header {
 .header__link:hover {
     background-color: var(--color-one);
 }
-.padrao__main {
-    margin: 7% 30%;
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     margin-top: 3%;
+}
+.apresentacao {
+    width: 450px;
 }
 .apresentacao__titulo {
     font-size: 22px;
@@ -89,6 +94,7 @@ header {
 .contato {
     margin-top: 5em;
     text-align: center;
+    width: 450px;
 }
 .contato__titulo {
     font-size: 17px;
