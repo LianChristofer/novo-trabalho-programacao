@@ -1,8 +1,16 @@
 body {
     height: auto;
 }
+.main__nos {
+    display: flex;
+    justify-content: center;
+}
 .apresentacao__titulo {
     margin-bottom: 0.5em;
+    width: 60%;
+}
+.apresentacao__desenvolvimento {
+    width: 60%;
 }
 .main__nos__fotos {
     display: flex;
@@ -22,9 +30,6 @@ body {
 .main__img {
     width: 100px;
     border-radius: 7px;
-}
-.main__nos {
-    width: auto;
 }
 .main__fotos {
     width: 100px;
