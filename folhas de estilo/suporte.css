@@ -9,7 +9,6 @@
 .inputUser{
     background: none;
     border: none;
-    border-bottom: 1px solid white;
     outline: none;
     color: white;
     width: 100%;
@@ -24,12 +23,13 @@
     height: 50%;
     border: none;
     padding: 15px;
-    color: white;
+    color: #c4c4c4;
     font-size: 15px;
     cursor: pointer;
     border-radius: 10px;
     transition: .4s ease-out;
 }
 #submit:hover{
+    color: var(--color-text1);
     background-image: linear-gradient(145deg, var(--color-six), var(--color-four));
 }
