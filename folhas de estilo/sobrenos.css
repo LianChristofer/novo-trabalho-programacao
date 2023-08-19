@@ -16,18 +16,19 @@ body {
     margin-top: 2em;
 }
 .main__fotos__text {
-    text-align: justify;
-    margin: 20px;
+    text-align: center;
+    margin: 10px;
 }
 .main__img {
     width: 100px;
     border-radius: 7px;
 }
 .main__nos {
-    width: 600px;
+    width: auto;
 }
 .main__fotos {
-    width: 200px;
+    width: 100px;
+    margin: 1%;
 }
 footer {
     bottom: 0;
