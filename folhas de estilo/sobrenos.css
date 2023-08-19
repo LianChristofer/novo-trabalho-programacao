@@ -34,3 +34,6 @@ header {
     width: 100px;
     margin: 1%;
 }
+footer {
+    position: relative;
+}
