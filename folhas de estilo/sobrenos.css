@@ -43,14 +43,18 @@ footer {
 .navigation {
     position: relative;
     display: flex;
+    align-items: center;
 }
 .bar {
-    width: 70px;
-    height: 14px;
-    border-radius: 7px;
-    border: 2px solid #ffcdcd;
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    border: 2px solid #ff8484;
     margin: auto;
+    margin: 0 3px;
+    transition: .6s;
 }
 .bar:hover {
     background-color: #ffcdcd;
+    height: 100%;
 }
