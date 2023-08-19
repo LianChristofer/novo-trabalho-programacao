@@ -3,7 +3,7 @@ body {
 }
 .main__nos__fotos {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 1fr 1fr 1fr;
     align-content: center;
     text-align: center;
     margin-top: 2em;
