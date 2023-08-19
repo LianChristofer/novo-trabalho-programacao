@@ -47,7 +47,10 @@ footer {
 .bar {
     width: 70px;
     height: 14px;
-    border-radius: 50%;
+    border-radius: 7px;
     border: 2px solid #5f0505;
     margin: auto;
+}
+.bar:hover {
+    background-color: #5f0505;
 }
