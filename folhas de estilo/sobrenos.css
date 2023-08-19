@@ -57,9 +57,10 @@ input {
     border: 2px solid #ff8484;
     margin: auto;
     margin: 0 3px;
-    transition: .6s;
+    transition: .6s ease-in-out;
 }
 .bar:hover {
     background-color: #ffcdcd;
     height: 100%;
+    width: 13px;
 }
