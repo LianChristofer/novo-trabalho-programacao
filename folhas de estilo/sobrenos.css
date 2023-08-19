@@ -9,10 +9,10 @@ body {
 }
 .apresentacao__titulo {
     margin-bottom: 0.5em;
-    width: 60%;
+    width: 65%;
 }
 .apresentacao__desenvolvimento {
-    width: 60%;
+    width: 65%;
 }
 .main__nos__fotos {
     display: flex;
