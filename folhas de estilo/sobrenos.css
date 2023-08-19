@@ -53,13 +53,16 @@ input {
 .bar {
     width: 10px;
     height: 10px;
-    border-radius: 50px;
-    border: 2px solid #ff8484;
-    margin: auto;
+    border-radius: 5px;
+    border: 2px solid #a7a7a7;
     margin: 0 3px;
-    transition: .6s ease-in-out;
+    transition: .4s ease-out;
 }
 .bar:hover {
-    background-color: #ffcdcd;
+    background-color: #a7a7a7;
     height: 100%;
+}
+.slide {
+    display: flex;
+    width: 500%;
 }
