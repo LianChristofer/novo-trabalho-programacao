@@ -42,7 +42,8 @@ footer {
 }
 .bar {
     width: 20px;
+    height: 8px;
     border-radius: 50%;
-    border: 2px solid #fff;
+    border: 2px solid #5f0505;
     margin: auto;
 }
