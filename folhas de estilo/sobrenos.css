@@ -1,6 +1,9 @@
 body {
     height: auto;
 }
+header {
+    margin-bottom: 1em;
+}
 .main__nos {
     display: flex;
     flex-direction: column;
@@ -17,7 +20,7 @@ body {
 .main__nos__fotos {
     display: flex;
     text-align: center;
-    margin: 4em 0;
+    margin: 4em 0 0 0;
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: row;
@@ -33,9 +36,4 @@ body {
 .main__fotos {
     width: 100px;
     margin: 1%;
-}
-
-footer {
-    position: relative;
-    bottom: 0;
 }
