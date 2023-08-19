@@ -1,10 +1,12 @@
+body {
+    height: auto;
+}
 .main__nos__fotos {
     display: grid;
     grid-template-columns: 50% 50%;
     align-content: center;
     text-align: center;
     margin-top: 2em;
-    width: 400px;
 }
 .main__fotos__text {
     text-align: justify;
@@ -12,6 +14,9 @@
 }
 .main__img {
     width: 90px;
+}
+.main__nos {
+    width: 400px;
 }
 footer {
     bottom: 0;
