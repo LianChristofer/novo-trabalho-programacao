@@ -3,6 +3,7 @@ body {
 }
 .main__nos {
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 .apresentacao__titulo {
