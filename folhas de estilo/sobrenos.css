@@ -33,3 +33,10 @@ footer {
     bottom: 0;
     position: relative;
 }
+
+.content {
+    height: 200px;
+    width: 360;
+    border-radius: 8px;
+    overflow: hidden;
+}
