@@ -9,9 +9,11 @@
 .main__fotos {
     display: flex;
     align-items: center;
-    width: 90px;
 }
 .main__fotos__text {
     text-align: justify;
     margin: 20px;
+}
+.main__img {
+    width: 90px;
 }
