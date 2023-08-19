@@ -1,6 +1,9 @@
 body {
     height: auto;
 }
+.apresentacao__titulo {
+    margin-bottom: 0.5em;
+}
 .main__nos__fotos {
     display: flex;
     text-align: center;
@@ -8,6 +11,9 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: row;
+}
+.main__melissa__matheus {
+    margin-top: 1em;
 }
 .main__fotos__text {
     text-align: justify;
