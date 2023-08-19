@@ -41,11 +41,10 @@ footer {
 
 .slider {
     display: block;
-    height: 293px;
-    width: 600px;
+    height: 145px;
+    width: 200px;
     margin: auto;
     margin-top: 20px;
-    position: relative;
 }
 
 .slider li {
