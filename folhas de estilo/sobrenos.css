@@ -13,3 +13,7 @@
 .main__img {
     width: 90px;
 }
+footer {
+    bottom: 0;
+    position: relative;
+}
