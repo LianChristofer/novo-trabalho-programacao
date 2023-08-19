@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/folhas de estilo/index.css">
     <link rel="stylesheet" href="/folhas de estilo/sobrenos.css">
+    <link href="/java script/sobrenos.js">
     <title>2º site</title>
 </head>
 
@@ -70,15 +71,17 @@
                 </div>
             </div>
         </section>
-        <section class="slider">
-            <div class="content">
-                    <img src="/imagens/lian.jpg">
-                    <img src="/imagens/mel.jpg">
-                    <img src="/imagens/lohane.jpg">
-                    <img src="/imagens/loyola.jpg">
-                    <img src="/imagens/gabryel.jpg">
+        <div class="container-slider">
+            <button id="prev-button"><img src="./public/images/arrow.png" alt="prev-button"></button>
+            <div class="container-images">
+                <img src="/imagens/lian.jpg" class="slider on">
+                <img src="/imagens/gabryel.jpg" class="slider">
+                <img src="/imagens/lohane.jpg" class="slider">
+                <img src="/imagens/loyola.jpg" class="slider">
+                <img src="/imagens/mel.jpg" class="slider">
             </div>
-        </section>
+            <button id="next-button"><img src="./public/images/arrow.png" alt="next-button"></button>
+        </div>
     </main>
     <footer>
         <p class="footer__text">Trabalho desenvolvido na disciplina de programação</p>
