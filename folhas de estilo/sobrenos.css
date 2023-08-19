@@ -4,11 +4,7 @@
     align-content: center;
     text-align: center;
     margin-top: 2em;
-
-}
-.main__fotos {
-    display: flex;
-    align-items: center;
+    width: 400px;
 }
 .main__fotos__text {
     text-align: justify;
