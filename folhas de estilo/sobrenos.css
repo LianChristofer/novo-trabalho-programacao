@@ -62,7 +62,16 @@ input {
     background-color: #a7a7a7;
     height: 100%;
 }
-.slide {
+.slides {
     display: flex;
     width: 500%;
+    height: 100%;
+}
+.slide {
+    width: 20%;
+    transition: .5s;
+}
+.slide img {
+    width: 100%;
+    height: 100%;
 }
