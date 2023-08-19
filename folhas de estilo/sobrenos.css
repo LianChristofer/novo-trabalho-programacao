@@ -4,7 +4,7 @@ body {
 .main__nos__fotos {
     display: flex;
     text-align: center;
-    margin-top: 2em;
+    margin: 4em 0;
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: row;
