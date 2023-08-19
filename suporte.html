@@ -27,25 +27,25 @@
     </header>
     <main>
         <section class="sectionformulario">
-            <div class="box">
-                <form action="">
-                    <fieldset>
-                        <div class="inputBox">
-                            <input type="text" name="nome" id="nome" class="inputUser" required>
-                            <label for="nome" class="labelInput">Nome completo</label>
-                        </div>
-                        <div class="inputBox">
-                            <input type="text" name="email" id="email" class="inputUser" required>
-                            <label for="email" class="labelInput">Email</label>
-                        </div>
-                        <div class="inputBox">
-                            <textarea name="mensagem" id="mensagem" placeholder="Mensagem..." required></textarea>
-                            <label for="mensagem">Seu Comentário:</label>
-                        </div>
-                        <input type="submit" name="submit" id="submit">
-                    </fieldset>
-                </form>
-            </div>
+            <form method="post" action="https://formspree.io/f/xyyaqjnl" class="formulario">
+                <p class="titformulario"> Envie uma mensagem preenchendo o formulário abaixo</p>
+
+                <div class="field">
+                    <label for="nome">Seu Nome:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome*" required>
+                </div>
+
+                <div class="field">
+                    <label for="email">Seu E-Mail:</label>
+                    <input type="email" id="email" name="email" placeholder="Digite seu E-Mail*" required>
+                </div>
+                <div class="field">
+                    <label for="mensagem">Seu Comentário:</label>
+                    <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required></textarea>
+                </div>
+
+                <input type="submit" name="acao" value="Enviar">
+            </form>
         </section>
     </main>
     <footer>
