@@ -33,12 +33,15 @@ footer {
     bottom: 0;
     position: relative;
 }
-
+input {
+    display: none;
+}
 .content {
     height: 200px;
     width: 150px;
     border-radius: 8px;
     overflow: hidden;
+    display: flex;
 }
 .navigation {
     position: relative;
