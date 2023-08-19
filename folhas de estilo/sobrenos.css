@@ -40,6 +40,10 @@ footer {
     border-radius: 8px;
     overflow: hidden;
 }
+.navigation {
+    position: relative;
+    display: flex;
+}
 .bar {
     width: 70px;
     height: 14px;
