@@ -2,11 +2,12 @@ body {
     height: auto;
 }
 .main__nos__fotos {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-content: center;
+    display: flex;
     text-align: center;
     margin-top: 2em;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
 }
 .main__fotos__text {
     text-align: justify;
@@ -16,7 +17,7 @@ body {
     width: 90px;
 }
 .main__nos {
-    width: 700px;
+    width: 600px;
 }
 footer {
     bottom: 0;
