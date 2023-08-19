@@ -36,12 +36,14 @@ footer {
 input {
     display: none;
 }
+.teste__slider {
+    display: flex;
+}
 .content {
     height: 200px;
     width: 150px;
     border-radius: 8px;
     overflow: hidden;
-    display: flex;
 }
 .navigation {
     position: relative;
