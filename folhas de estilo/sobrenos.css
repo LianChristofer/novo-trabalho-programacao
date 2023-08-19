@@ -40,6 +40,9 @@ footer {
     border-radius: 8px;
     overflow: hidden;
 }
-.navigation {
-    
+.bar {
+    width: 20px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin: auto;
 }
