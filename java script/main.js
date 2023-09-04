@@ -1,1 +1,1 @@
-alert('oi')
+document.querySelector('.tecla-pom');
