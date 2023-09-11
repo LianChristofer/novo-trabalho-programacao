@@ -7,7 +7,7 @@
 }
 
 .tecla {
-    background-color: rgb(207, 243, 202);
+    background-color: blueviolet;
     color: aqua;
     padding: 30px;
 }
@@ -29,5 +29,5 @@
 .tecla:active:focus,
 .tecla:active:focus {
     box-shadow: 3px 3px 0;
-    color: aquamarine;
+    color: rgb(0, 0, 0);
 }
