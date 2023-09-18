@@ -8,8 +8,8 @@ let contador = 0;
 
 while (contador < ListaDeTeclas.length) {
     ListaDeTeclas[0].onclick = Function() {
-        Tocar(ListaDeTeclas)
-    };
+        Tocar(ListaDeTeclas);
+    }
     contador = contador + 1;
     console.log(contador);
 }
