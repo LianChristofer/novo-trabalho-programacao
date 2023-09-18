@@ -10,6 +10,9 @@ while (contador < ListaDeTeclas.length) {
     ListaDeTeclas[contador].onclick = function () {
         Tocar('#som-tecla-toim');
     }
+    const lista = ListaDeTeclas[0].classList[1]
+    console.log(lista)
+
     contador = contador + 1;
     console.log(contador);
 }
