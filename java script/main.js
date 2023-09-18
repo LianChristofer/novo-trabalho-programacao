@@ -1,5 +1,5 @@
 function TocaSomPom () {
-    document.querySelector('#som_tecla_toim').play();
+    document.querySelector('#som-tecla-toim').play();
 }
 
 const ListaDeTeclas = document.querySelectorAll('.tecla');
