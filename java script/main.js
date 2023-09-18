@@ -7,7 +7,7 @@ const ListaDeTeclas = document.querySelectorAll('.tecla');
 let contador = 0;
 
 while (contador < ListaDeTeclas.length) {
-    ListaDeTeclas[0].onclick = TocaSomPom;
+    ListaDeTeclas[0].onclick = Tocar;
     contador = contador + 1;
     console.log(contador);
 }
