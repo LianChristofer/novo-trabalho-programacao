@@ -8,12 +8,12 @@ let contador = 0;
 
 while (contador < ListaDeTeclas.length) {
     ListaDeTeclas[contador].onclick = function () {
-        Tocar(idAudio);
+        Tocar(idElementoAudio);
     }
     const lista = ListaDeTeclas[contador].classList[1]
     console.log(lista)
     const idAudio = '#som_$(lista)';
-    console.log(idAudio);
+    console.log(idElementoAudio);
     contador = contador + 1;
     console.log(contador);
 }
