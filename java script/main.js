@@ -12,7 +12,7 @@ while (contador < ListaDeTeclas.length) {
     }
     const lista = ListaDeTeclas[contador].classList[1]
     console.log(lista)
-    const idAudio = som_$(classe);
+    const idAudio = 'som_$(lista)';
     contador = contador + 1;
     console.log(contador);
 }
