@@ -14,6 +14,7 @@ while (Contador < ListaTeclas.length) {
     }
     Contador = Contador + 1;
     botão.onkeydown = function (Evento) {
+
         if (Evento.code === 'Space' || Evento.code === 'Enter') {
             botão.classList.add('ativa');
         }
