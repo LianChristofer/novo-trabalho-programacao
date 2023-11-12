@@ -1,0 +1,38 @@
+.calculator {
+    max-width: 400px; /* Defina a largura máxima da calculadora */
+    margin: 0 auto; /* Centraliza a calculadora na página */
+    padding: 20px; /* Adiciona algum espaçamento interno à calculadora */
+    border: 2px solid #ccc; /* Adiciona uma borda para melhor visualização */
+    border-radius: 10px; /* Adiciona bordas arredondadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil */
+}
+
+.display {
+    background-color: #f8f8f8; /* Cor de fundo do visor */
+    padding: 10px;
+    margin-bottom: 10px; /* Adiciona espaçamento na parte inferior do visor */
+    border: 1px solid #ccc; /* Adiciona uma borda ao visor */
+    border-radius: 5px; /* Adiciona bordas arredondadas ao visor */
+}
+
+/* Estilização dos botões */
+.button {
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.purple-text {
+    color: purple;
+}
+
+.gray {
+    background-color: #ccc;
+}
+
+.purple {
+    background-color: purple;
+    color: #fff; /* Cor do texto para botões roxos */
+}
