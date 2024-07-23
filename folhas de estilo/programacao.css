@@ -1,33 +1,3 @@
 .teclado {
-    background-color: aliceblue;
-    display: grid;
-    gap: 10px;
-    grid-template-columns: repeat(3, 1fr);
     padding: 10px;
-}
-
-.tecla {
-    background-color: blueviolet;
-    color: aqua;
-    padding: 30px;
-}
-
-.tecla.ativa,
-.tecla:active {
-    background-color: blueviolet;
-    color: azure;
-    outline: none;
-}
-
-.tecla.focus,
-.tecla:focus {
-    outline: none;
-    box-shadow: 1px 1px 10px;
-    color: black;
-}
-
-.tecla:active:focus,
-.tecla:active:focus {
-    box-shadow: 3px 3px 0;
-    color: rgb(0, 0, 0);
 }
