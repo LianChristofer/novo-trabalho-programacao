@@ -176,4 +176,6 @@ footer {
 .robotica {
     margin-left: 20px;
     border-left: 20px;
+    display: flex;
+    justify-content: center;
 }
