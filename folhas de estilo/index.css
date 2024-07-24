@@ -183,5 +183,5 @@ footer {
 .h1 {
     display: flex;
     justify-content: center;
-    border-top: 20px;
+    margin-top: 3%;
 }
